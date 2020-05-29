@@ -1,0 +1,102 @@
+.button-styled{
+  display: inline-block;
+  padding: 2vw;
+  font-weight: bold;
+  width: 22vw;
+  text-align: center;
+  font-size: 1.3rem;
+  text-decoration: none;
+  background: transparent;
+  border-radius: 8px;
+  cursor: pointer;
+  position: relative;
+  z-index: 2;
+  overflow: hidden;
+  -webkit-transition: color 1.5s;
+  -o-transition: color 1.5s;
+  transition: color 1.5s;
+}
+
+.button-styled:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  height: 250px;
+  width: 300px;
+  border-radius: 50%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  bottom: 100%;
+  -webkit-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+}
+
+.button-styled:hover:before {
+  bottom: -50px;
+}
+
+
+.button-styled--a{
+  border: 3px solid white;
+  color: white;
+  background: transparent;
+
+}
+
+.button-styled--a:hover{
+  color: #31353d;
+  border: 2px solid #94b760;
+}
+
+.button-styled--a:before {
+  background: #94b760;
+}
+
+
+.button-styled--d{
+  border: none;
+  color: white;
+  background-color: $light-blue;
+  left: 40%;
+  margin-top: 12vh;
+  position: absolute;
+}
+
+.button-styled--d:hover{
+  color: #1a220d;
+  border: none;
+}
+
+.button-styled--d:before {
+  background: white;
+}
+
+.button-styled--f{
+  padding: 1.2vw;
+  width: 12vw;
+  height: 5vw;
+  font-size: 1rem;
+}
+
+.button-styled--g{
+  border: 3px solid $text-green;
+  color: $text-green;
+  background: transparent;
+  padding: 2vw 2vw 3vw 2vw;
+  font-size: 1rem;
+  height: 10px;
+
+}
+
+.button-styled--g:hover{
+  color: $text-green;
+  border: 2px solid $light-blue;
+}
+
+.button-styled--g:before {
+  background: $light-blue;
+}
+

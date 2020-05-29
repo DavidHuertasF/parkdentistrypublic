@@ -1,0 +1,9 @@
+@media only screen and (min-width: 1500px) {
+  #responsive {
+    color: yellow;
+  }
+
+  #responsive:after {
+    content: "extra large";
+  }
+}

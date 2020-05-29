@@ -1,0 +1,37 @@
+@import "components/base";
+@import "components/header";
+@import "components/button-animated";
+@import "components/button-select";
+
+@import "sections/section-a";
+@import "sections/section-b";
+@import "sections/section-c";
+@import "sections/section-e";
+@import "sections/section-f";
+@import "sections/section-g";
+
+@import "components/footer";
+
+@import "responsive-home/_extra-large.scss";
+@import "responsive-home/_extra-small.scss";
+@import "responsive-home/_medium.scss";
+@import "responsive-home/_small.scss";
+@import "responsive-home/_tablet.scss";
+@import "responsive-home/_large.scss";
+
+#responsive  {
+  font-size: 5vh;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: 100%;
+  margin-top: 23vh;
+  grid-auto-rows:80vh;
+}
+
+.section-d__image{
+  width: 100%;
+  margin-top:100px;
+  margin-bottom: -10px;
+}

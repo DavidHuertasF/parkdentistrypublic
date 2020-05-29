@@ -1,0 +1,32 @@
+.section-f{
+    width: 100%;
+    background-color: $light-blue;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-f__logo{
+    width: 23vw;
+}
+
+.section-f__content{
+    align-self: center;
+    margin-left: 5%;
+    .p1{
+        font-size: 3vw;
+        margin-top: -3px;
+        color: white;
+    }  
+    .p2{
+        color: $text-green;
+        font-family: $font-light;
+        font-size: 1.5vw;
+    }  
+}
+
+.toothbrush{
+    margin-right: 25%;
+    align-self: flex-end;
+    height: 80%;
+}
+

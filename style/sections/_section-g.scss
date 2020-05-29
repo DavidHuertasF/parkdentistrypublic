@@ -1,0 +1,38 @@
+.section-g{
+    // background-color: blue;
+    display: flex;
+}
+
+.map{
+    width: 120%;
+}
+.section-g__content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3vw 6vw 0vw 6vw;
+
+    .sections-g{
+        color: $text-green;
+        display: flex;
+        flex-direction: column;
+        align-items: center;        
+        div{
+            
+            display: flex;
+            margin-bottom: -20px;
+            align-items: center;
+            img{
+                margin-right: 10px;
+                width: 1.3vw;
+                height: 1.3vw;
+            }
+        }
+    }
+   
+}
+
+.section-g__logo{
+    width: 10vw;
+    margin-bottom: 2vw;
+}

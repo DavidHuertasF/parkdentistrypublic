@@ -1,0 +1,51 @@
+@font-face {
+  font-family: eaves-regular;
+  src: url("../../font/MrEavesModOT-Reg.otf");
+}
+
+@font-face {
+  font-family: eaves-decorated;
+  src: url("../../font/MrEavesSanOT-Reg.otf");
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+$font-regular: eaves-regular, sans-serif;
+$font-light:  'Quicksand', sans-serif; 
+$font-decorated: eaves-decorated, sans-serif;
+
+$light-blue: #b1d5ed;
+$text-green: #174240;
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  font-family: $font-regular;
+}
+
+
+.lighting-effect-a {
+  border-bottom: 23vh solid #fbf9f91c;
+  border-left: 11vh solid transparent;
+  height: 0;
+  right: 0px;
+  width: 35vh;
+  position: fixed;
+  z-index: 6;
+  top: 0;
+}
+.lighting-effect-b {
+  border-bottom: 80vh solid #fbf9f91c;
+  border-left: 40vh solid transparent;
+  height: 0;
+  right: 0px;
+  width: 45vh;
+  top:20vh;
+  position: fixed;
+  z-index: 2;
+}
+
+
+

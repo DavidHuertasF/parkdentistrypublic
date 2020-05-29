@@ -1,0 +1,8 @@
+@media only screen and (min-width: 650px) and (max-height: 500px) {
+  #responsive {
+    color: purple;
+  }
+  #responsive:after {
+    content: "tablet";
+  }
+}

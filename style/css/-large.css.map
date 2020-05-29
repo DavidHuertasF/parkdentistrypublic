@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,MAAM,MAAM,MAAM,MAAM,SAAS,EAAE,MAAM,EACrC,AAAA,WAAW,AAAA,CACP,KAAK,CAAE,GAAG,CACb",
+    "sources": [
+        "../responsive-home/-large.scss"
+    ],
+    "names": [],
+    "file": "-large.css"
+}

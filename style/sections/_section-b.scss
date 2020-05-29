@@ -1,0 +1,54 @@
+.section-b {
+  display: grid;
+  grid-template: 70% 30% / 20% 20%  25% 5% 15%;
+  grid-template-areas:"logo   big-p image image  . "
+                      "logo   p1    p2    p3     p3 ";
+  color: $text-green;
+  padding: 10vh 0;
+  grid-column-gap: 22px;
+
+  
+  .section-b__image {
+    grid-area: logo;
+    align-self: center;
+    width: 85%;
+  }
+
+  .office_img {
+    grid-area: image;
+    width: 100%;
+    align-self: center;
+  }
+
+  .p1 {
+    margin-right: 5px;
+      grid-area: big-p;
+      font-family: "Quicksand",sans-serif;
+      line-height: 1.3;
+      font-size: 1.75em;
+      margin-top: 0px;
+      b {
+        font-family: $font-regular;
+        font-size: 1.3em;
+      }
+    }
+
+  
+    .p2, .p3, .p4{
+      font-size: 2.5vh;
+      font-family: $font-light;
+    }
+
+    .p2{
+      grid-area: p1;
+    }
+
+    
+    .p3{
+      grid-area: p2;
+    }
+    
+    .p4{
+      grid-area: p3;
+    }
+}

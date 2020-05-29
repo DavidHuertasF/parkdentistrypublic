@@ -1,0 +1,62 @@
+.section-e{
+    display: flex;
+    align-items: center;
+    color: white;
+    background-color: #174240;
+}
+
+.section-e__text{
+    max-width: 16%;
+    padding: 4%;
+    .p1{
+        font-size: 3.2vw;
+        font-weight: bold;
+    }
+
+    .p2{
+        font-family: $font-light;
+        font-size: 2vw;
+    }
+
+    .p3{
+        font-family: $font-light;
+        font-size: 1.2vw;
+    }
+}
+
+
+
+.section-e__staffs{
+    max-width: 70%;
+    display: flex;
+
+
+    .profile{
+        margin-top: 4vw;
+        margin-bottom: -4vw;
+    }
+    .staff{
+        width: 40%;
+        margin: 2%;
+
+        p{
+            font-size: 1.1vw;
+            font-family: $font-light;
+            text-align: center;
+        }
+    }
+
+    .staff__photo{
+        width: 21vw;
+    }
+
+    .staff__plus{
+        width: 8vw;
+        position: relative;
+        top: -8vw;
+        cursor: pointer;
+        z-index: 4;
+    }
+    
+}
+
